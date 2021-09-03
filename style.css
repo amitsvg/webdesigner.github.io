@@ -1,0 +1,99 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width:100%;
+}
+header{
+    display:block;
+    justify-content: center;
+
+}
+.navbar{
+    background-color: pink;
+    height: 150px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.navbar h1{
+    font-size: 8vh;
+    font-family: 'Varela Round', sans-serif;
+}
+ul{
+    display: inline-flex;
+    flex-flow: row;
+    width:60%;
+    margin: 25px 200px;
+
+}
+.navbar li{
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 7px 30px;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li:hover{
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 7px 30px;
+    background-color: rgb(231, 141, 156);
+    border-radius: 6px;
+
+
+}
+.navbar li a:hover{
+    cursor: pointer;
+}
+
+.container{
+    background-color: #53257e94;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
+}
+p{
+    width: 400px;
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    padding: 6px;
+}
+#emailInput{
+    margin: 6px;
+    padding: 10px 10px;
+    display: inline-block;
+    height:40px;
+    width:500px;
+}
+button{
+    background-color: orange;
+    color: white;
+    height: 40px;
+    width: 500px;
+}
